@@ -1,0 +1,32 @@
+[project]
+name = "tasked"
+version = "0.1.0"
+description = "A CLI application to manage tasks."
+authors = [{ name = "Orion", email = "orionwatson27@yahoo.com" }]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["typer"]
+
+[project.urls]
+Homepage = "https://github.com/LegendaryPredz/tasked"
+
+[project.scripts]
+tasked = "tasked:app"
+
+[tool.uv]
+package = true
+
+[tool.setuptools]
+py-modules = ["tasked"]
+
+[tool.ruff]
+line-length = 120
+select = ["I"]
+fix = true
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = ["pytest>=8.3.2"]

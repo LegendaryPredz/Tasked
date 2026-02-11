@@ -3,6 +3,7 @@ name = "tasked"
 version = "1.0.0"
 description = "A CLI application to manage tasks."
 authors = [{ name = "Orion", email = "orionwatson27@yahoo.com" }]
+license = "MIT"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = ["typer"]

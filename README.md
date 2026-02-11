@@ -6,14 +6,6 @@ A simple command-line task manager that keeps your to-do list organized right fr
 
 ## Installation
 
-### From PyPI
-
-```bash
-pip install tasked
-```
-
-### From GitHub
-
 ```bash
 pip install git+https://github.com/LegendaryPredz/Tasked.git
 ```
